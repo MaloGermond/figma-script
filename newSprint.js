@@ -39,7 +39,4 @@ for (let i = 0 ; i <= (row+rGap)*rowNb; i+=(row+rGap)){
 }
 
 
-// Add guides to the frame
-const horizontalGuide = { axis: 'Y', offset: 0 }; // 'Y' for horizontal
-const verticalGuide = { axis: 'X', offset: 0 };   // 'X' for vertical
 page.guides = guides;
